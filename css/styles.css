@@ -3,17 +3,10 @@ body {
   background-color: #FFFFFF;
   color: #434455;
 }
-  p, 
-  h1,
-  h2,
-  h3, 
-  h4, 
-  h5, 
-  h6,{
+h1, h2, h3, h4, h5, h6, p, ul {
 padding: 0;
 margin: 0;
   }
-
 img{
 display: block ;
 }
@@ -48,7 +41,6 @@ justify-content: space-between;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    
   }
   
   .header-logo-color {
@@ -82,8 +74,7 @@ padding: 24px 0 24px
 
 .header-adress{
     font-style: normal;
-    display: flex;
-    
+    display: flex;  
 }
 
 .header-adress-list {
@@ -102,7 +93,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
 }
 
 .header-adress-link:hover {
@@ -115,12 +105,10 @@ letter-spacing: 0.02em;
     .effective {
         background-color:#2e2f42;
         padding: 188px 0 188px;
-     
     } 
     
     .effective-title{
         color: #ffffff;
-    
         font-family: "Roboto", sans-serif;
         font-size: 56px;
         font-style: normal;
@@ -131,9 +119,8 @@ letter-spacing: 0.02em;
         text-align: center;
         margin: 0 auto;
         padding-bottom: 48px;
-       
     }
-    
+
     .effective-btn{
     background-color: #4D5AE5;
     }
@@ -162,11 +149,32 @@ letter-spacing: 0.02em;
     }
      /* section 2 */
     .strategy {
+        padding: 120px 0 120px;
+    }
+   
+    .visually-hidden {
+        position: absolute !important;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(0px 0px 0px 0px); 
+        clip-path: inset(100%);
+        white-space: nowrap;
+    }
+
+    .container-strategy{
        
     }
     .strategy-list {
+        display: flex;  
+        gap: 24px;
+       
     }
     .strategy-item {
+        width calc((100% - 3 * 24px) / 4);
     }
     .strategy-subtitel {
         color: #2e2f42;
@@ -174,12 +182,14 @@ letter-spacing: 0.02em;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
     }
     .strategy-item-text {
         color:  #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+       
     }
     /* section 3 */
     

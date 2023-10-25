@@ -3,6 +3,9 @@ body {
   background-color: #FFFFFF;
   color: #434455;
 }
+.img{
+    display: block;
+}
 ul{
     list-style: none;
 }
@@ -10,6 +13,11 @@ a {
     text-decoration: none;
 }
 .header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+.wrap {
+    
 }
 .header-navigation {
 }

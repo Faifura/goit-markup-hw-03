@@ -23,6 +23,7 @@ display: flex;
 align-items: center;
 
 }
+
 .header-navigation {
     display: flex;
     align-items: center;
@@ -71,18 +72,16 @@ padding: 24px 0 24px
 .header-adress{
     font-style: normal;
     display: flex;
+    
 }
 
 .header-adress-list {
     display: flex;
     margin-right: 40px;
     padding: 0;
+    gap: 40px;
 }
 
-.header-address-item{
-    display: flex;
-    margin-right: 0;
-}
 
 .header-adress-link {
     color:  #434455;
@@ -92,8 +91,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
-
 }
 
 .header-adress-link:hover {

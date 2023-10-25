@@ -21,7 +21,7 @@ margin: 0 auto;
 padding: 0 15px 0 15px;
 display: flex;
 align-items: center;
-
+justify-content: space-between;
 }
 
 .header-navigation {
@@ -91,6 +91,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+
 }
 
 .header-adress-link:hover {
@@ -103,6 +104,7 @@ letter-spacing: 0.02em;
     .effective {
         background-color:#2e2f42;
         text-align: center;
+        padding: 188px 0 188px;
     } 
     
     .effective-title{

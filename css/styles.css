@@ -3,7 +3,7 @@ body {
   background-color: #FFFFFF;
   color: #434455;
 }
-.img{
+img{
 display: block ;
 }
 ul{
@@ -76,6 +76,7 @@ padding: 24px 0 24px
 .header-adress-list {
     display: flex;
     margin-right: 40px;
+    padding: 0;
 }
 
 .header-address-item{

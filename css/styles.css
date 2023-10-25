@@ -171,10 +171,10 @@ letter-spacing: 0.02em;
     .strategy-list {
         display: flex;  
         gap: 24px;
-       
+      
     }
     .strategy-item {
-        flex-basis: calc((100% - 72px) / 4))
+        flex-basis: calc((100% - 72px) / 4));
     }
     .strategy-subtitel {
         color: #2e2f42;

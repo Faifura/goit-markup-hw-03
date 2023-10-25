@@ -16,11 +16,14 @@ a {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px 0 15px;
 display: flex;
 align-items: center;
+
 }
 .header-navigation {
-    width: 1158px;
     display: flex;
     align-items: center;
 }
@@ -67,8 +70,6 @@ letter-spacing: 0.02em;
     font-style: normal;
     display: flex;
     gap: 40px;
-    width: 1158px;
-    margin: 0 auto;
     padding: 0 15px 0 15px;
 }
 .header-adress-item{

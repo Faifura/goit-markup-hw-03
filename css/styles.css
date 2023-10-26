@@ -3,6 +3,11 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+.container {
+  width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 h1,
 h2,
 h3,
@@ -172,13 +177,13 @@ a {
 }
 
 .container-strategy {
+  flex-basis: calc((100% - 72px) / 4);
 }
 .strategy-list {
   display: flex;
   gap: 24px;
 }
 .strategy-item {
-  flex-basis: calc((100% - 72px) / 4);
 }
 .strategy-subtitel {
   color: #2e2f42;

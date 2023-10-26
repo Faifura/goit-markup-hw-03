@@ -195,9 +195,10 @@ letter-spacing: 0.02em;
     
     .team {
         background-color: #F4F4FD;
+        padding: 120px 0 120px;
     }
     .container-team{
-        padding: 120px 0;
+        
 
     }
     .team-subtitle{
@@ -238,7 +239,7 @@ letter-spacing: 0.02em;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-    .div-Guerrero{
+    .div-person{
         padding: 32px 0;
     }
     /* section 4 */

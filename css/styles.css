@@ -8,6 +8,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
@@ -177,13 +178,13 @@ a {
 }
 
 .container-strategy {
-  flex-basis: calc((100% - 72px) / 4);
 }
 .strategy-list {
   display: flex;
   gap: 24px;
 }
 .strategy-item {
+  width: calc((100% - 72px) / 4);
 }
 .strategy-subtitel {
   color: #2e2f42;
@@ -283,14 +284,13 @@ a {
 .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
-
+.portfolio-img {
+  width: 100%;
+}
 .div-app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-
-.portfolio-img {
 }
 /* footer */
 

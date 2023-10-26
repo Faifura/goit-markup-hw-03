@@ -264,6 +264,7 @@ letter-spacing: 0.02em;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 
     }
     .portfolio-text {
@@ -273,10 +274,11 @@ letter-spacing: 0.02em;
         letter-spacing: 0.02em;
     }
     .portfolio-list {
-        display: flex 
-        flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap; 
         column-gap: 24px; 
         row-gap: 48px; 
+       
     }
     .portfolio-item {
 width: calc((100% - 48px) / 3);
@@ -284,7 +286,7 @@ width: calc((100% - 48px) / 3);
  
 .div-app{
     padding: 32px 16px;
-    1px solid #e7e9fc;
+    border: 1px solid #e7e9fc; 
     border-top: none;
 }
 

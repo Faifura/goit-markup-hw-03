@@ -296,7 +296,12 @@ width: calc((100% - 48px) / 3);
 
     .footer {
         background-color: #2e2f42 ;
-    }
+        padding: 100px 0;}
+
+        .container-footer{
+
+        }
+    
     .footer-logo {
         color: #4D5AE5;
         font-family: "Raleway", sans-serif;
@@ -305,6 +310,8 @@ width: calc((100% - 48px) / 3);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px; 
     }
     .footer-logo-color {
         color: #F4F4FD;
@@ -315,4 +322,5 @@ width: calc((100% - 48px) / 3);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        max-width: 264px;
     }
